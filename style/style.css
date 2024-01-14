@@ -26,6 +26,7 @@ font-weight: 700;
 font-size: 1rem;
 font-weight: 600;
 }
+/*section-1*/
 .section-1{
     max-width: 1600px;
     margin: 0px 80px;
@@ -65,7 +66,14 @@ width: 196px;
 height: 44px;
 
 }
-
+/* section-2*/
+.section-2{
+    max-width: 1440px;
+    margin: 125px 165px 0px 165px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
 
 
 
@@ -92,8 +100,7 @@ height: 44px;
     .section-1{
         flex-direction: column-reverse;
         text-align: center;
-        padding: 0px 100px;
-        
+        padding: 0px 100px;    
     }
     .r{
       width: 400px;
@@ -106,6 +113,14 @@ height: 44px;
     .section-1-des{
         width: 384px;
         padding: 0px 100px;
+    }
+    .section-2{
+        width: 360px;
+        margin: 30px 152px 0px 30px;
+        flex-flow: wrap;
+        gap: 10px;
+        
+        
     }
 }
 
@@ -121,6 +136,11 @@ height: 44px;
     .section-1{
         flex-direction: column-reverse;
         text-align: center;
+    }
+    .section-2{
+
+       flex-flow:wrap; 
+       gap: 30px;
     }
     
 }
