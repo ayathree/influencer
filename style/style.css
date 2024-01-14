@@ -130,6 +130,32 @@ font-size: 1rem;
 font-weight: 700;
 line-height: 28px;
 }
+footer{
+    color: #fff;
+    margin: 100px 0px 0px 0px;
+    padding: 50px;
+    text-align: center;
+    background: #0A0826;
+    
+}
+.footer-icon{
+    max-width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 572px; 
+}
+.footer-title{
+    color: #FFF;
+font-size: 1.8rem;
+font-weight: 700;
+}
+.footer-des{
+    color: var(--Text-Gray-300, #D9DBE1);
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+}
 
 
 
@@ -194,6 +220,12 @@ line-height: 28px;
     .section-4-title, .section-4-des{
         width: 260px; 
     }
+    footer{
+        width: 400px;
+    }
+    .footer-icon{
+        margin: 0px 150px;
+    }
     
 }
 
@@ -223,6 +255,10 @@ line-height: 28px;
     }
     .section-4{
         flex-direction: column-reverse;
+    }
+    .footer-icon{
+        margin: 0px 270px;
+        gap: 5px;
     }
 }
     
