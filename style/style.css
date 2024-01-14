@@ -103,6 +103,33 @@ font-size: 1.8rem;
 font-weight: 500;
 line-height: 40px;
 }
+.section-3-last{
+    color: rgba(224, 44, 109, 0.87);
+text-align: right;
+margin-top: 40px;
+font-size: 1rem;
+font-weight: 700;
+}
+.section-4{
+    max-width: 1440px;
+    margin: 125px 135px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.section-4-title{
+    color: #0A0826;
+font-size: 2rem;
+font-weight: 700;
+line-height: 60px;
+}
+.section-4-des{
+    width: 501px;
+    color: #6C6C6C;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28px;
+}
 
 
 
@@ -159,6 +186,18 @@ line-height: 40px;
     .section-div{
         padding: 30px;
     }
+    .section-4{
+        width: 200px;
+        flex-direction: column-reverse;
+    }
+    .section-4-title, .section-4-des{
+        width: 260px; 
+    }
+    .section-4-img{
+        width: 260px; 
+        margin-right: 300px;
+        margin-left: 100px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -184,6 +223,9 @@ line-height: 40px;
     }
     .section-div{
         padding: 100px;
+    }
+    .section-4{
+        flex-direction: column-reverse;
     }
 }
     
